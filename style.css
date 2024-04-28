@@ -1,0 +1,59 @@
+body{
+    background-image: url("/Websitee/images/collage.jpg");
+    background-size: cover;
+}
+.navbar {
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(10, 10, 59);
+    border-radius: 8px;
+}
+
+.navbar ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li a:hover {
+    background-color: rgb(67, 67, 172);
+    font-size: 1.02em;
+}
+
+.main_div {
+    display: flex;
+    justify-content: center;
+}
+
+.div_1 {
+    width: 45%;
+    height: 100px;
+    font-size: 3em;
+    margin-top: 80px;
+    margin-left: 80px;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 7px rgb(39, 96, 110), 3px 3px 7px black;     
+    font-family: "Lugrasimo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4em;
+       
+}
+
+.div_2 {
+    width: 30%;
+    margin-left: 80px;
+}
